@@ -1,0 +1,288 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  background-color: rgb(238, 237, 237);
+}
+
+.container {
+  margin: 80px 80px;
+  display: flex;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.left {
+  width: 35%;
+  background-color: rgb(249, 249, 249);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.untitled-ui {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 30px 25px;
+}
+
+.untitled-ui h3 {
+  font-size: 15px;
+}
+.untitled-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.untitled-logo img {
+  width: 100%;
+}
+.left-img {
+  width: 100%;
+  /* height: 60%; */
+}
+
+.left-img img {
+  width: 100%;
+}
+
+.integration-steps {
+  padding: 20px 10px 20px 30px;
+}
+
+.integration-steps h4 {
+  margin-bottom: 16px;
+}
+.integration-steps h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.integration-steps p {
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+.integration-steps div {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.integration-steps div span {
+  display: inline-block;
+  width: 23%;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.integration-steps div span:nth-child(4),
+.integration-steps div span:nth-child(3) {
+  border-color: white;
+}
+
+/* right side */
+.right {
+  width: 65%;
+
+  background-color: rgb(238, 237, 237);
+}
+
+.all-btns {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(223, 223, 223);
+  padding: 0 10px;
+  height: 35px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.top {
+  background-color: white;
+  padding: 30px 25px 5px 25px;
+  margin-bottom: 1px;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-header h2 {
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+  font-size: 28px;
+}
+
+.top-header button {
+  width: 160px;
+  gap: 8px;
+}
+
+.top p {
+  margin-bottom: 24px;
+}
+
+.top-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  height: 35px;
+  margin-bottom: 20px;
+}
+
+.top-list ul {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+  background-color: rgb(246, 246, 246);
+  border-radius: 5px;
+  border: 1px solid rgb(238, 238, 238);
+}
+
+.top-list li {
+  padding: 5px 10px 5px 4px;
+  list-style: none;
+}
+.top-list li a:link,
+.top-list li a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.top-list li a:hover,
+.top-list li a:active {
+  color: #3b3b3b;
+}
+
+.all-integration {
+  background-color: white;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.top-list form {
+  width: 170px;
+  justify-content: flex-start;
+}
+
+.search {
+  background-color: white;
+  border: none;
+}
+
+.search-input {
+  border: none;
+}
+
+.search-input:focus {
+  outline: none;
+}
+/* logo section */
+
+.app-section {
+  padding: 5px 25px;
+  background-color: white;
+  position: relative;
+}
+
+.app-section > div {
+  display: flex;
+  align-items: flex-start;
+  padding: 15px 0;
+  border-bottom: 1px solid rgb(238, 237, 237);
+}
+
+.logo-div {
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+}
+
+.logo-div img {
+  width: 100%;
+}
+
+.logo-div .figma-img {
+  width: 70%;
+}
+.asana-logo {
+  border-radius: 50%;
+}
+
+.asana {
+  margin-bottom: 4px;
+}
+
+.text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.learn-button {
+  width: 28%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  justify-items: flex-end;
+}
+
+.dark-button {
+  color: white;
+  background-color: black;
+  width: 100px;
+  justify-content: space-around;
+  gap: 3px;
+}
+
+.white-button {
+  width: 70px;
+  justify-content: center;
+}
+
+#previous-next {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 25px;
+  background-color: rgba(255, 255, 255, 0.964);
+  border-top: 1px solid rgb(238, 237, 237);
+}
+
+#previous-next > button:first-child {
+  width: 120px;
+}
+#previous-next > button:last-child {
+  background-color: black;
+  color: white;
+  width: 100px;
+}
+.fa-arrow-left {
+  color: black;
+}
